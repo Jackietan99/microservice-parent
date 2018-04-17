@@ -23,7 +23,7 @@
 
 2.单个业务module只需要一个启动项
 
-   概念图
+ #  概念图
  ![image](https://github.com/Jackietan99/microservice-parent/blob/master/keypointflow.PNG?raw=true)
 
 
@@ -40,12 +40,14 @@
 | microservice-member-server       |    8082    |  member模块启动项  |
 
 
-#   使用
+# 使用
 
 更改各领域中的配置后,先后启动 register,member,gateway.
 
 
 #未完(TODO)
+
+
 po主还在摸索springcloud项目 ,虚心请教各位.
 更多功能, 后续会加上.
 
