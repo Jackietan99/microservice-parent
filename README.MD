@@ -25,7 +25,7 @@
 
 
     概念图
-    ![image]()
+    ![image](https://github.com/Jackietan99/microservice-parent/blob/master/keypointflow.PNG)
 
 
 
