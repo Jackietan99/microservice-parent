@@ -44,7 +44,6 @@
 
 更改各领域中的配置后,先后启动 register,member,gateway.
 
-
 #未完(TODO)
 
 
