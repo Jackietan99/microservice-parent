@@ -19,13 +19,12 @@
 1.很多项目本身MVC简单服务调用链已经满足,Po主膜拜很多大神项目后,稍加改动如 :
     Member 领域最简单调用 
 
-    利用关系来满足上下约束规范
+   利用关系来满足上下约束规范
 
 2.单个业务module只需要一个启动项
 
-
-    概念图
-    ![image](https://github.com/Jackietan99/microservice-parent/blob/master/keypointflow.PNG)
+   概念图
+ ![image](https://github.com/Jackietan99/microservice-parent/blob/master/keypointflow.PNG?raw=true)
 
 
 
