@@ -27,7 +27,6 @@
  ![image](https://github.com/Jackietan99/microservice-parent/blob/master/keypointflow.PNG?raw=true)
 
 
-
 #   各模块介绍
 | 模块名称        | 端口   |  简介  |
 | --------   | -----:  | :----:  |
@@ -44,8 +43,7 @@
 
 更改各领域中的配置后,先后启动 register,member,gateway.
 
-#未完(TODO)
-
+#未完TODO
 
 po主还在摸索springcloud项目 ,虚心请教各位.
 更多功能, 后续会加上.
