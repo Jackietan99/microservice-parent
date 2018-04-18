@@ -1,5 +1,10 @@
 package com.jsfd.microservice.server;
 
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
 /**
  * @program: microservice-parent
  * @description: MemberServer Startup
@@ -13,6 +18,6 @@ package com.jsfd.microservice.server;
 public class MemberApplication {
 
     public static void main(String []args){
-        springApplication.run(MemberApplication.class, args);
+        SpringApplication.run(MemberApplication.class, args);
     }
 }
