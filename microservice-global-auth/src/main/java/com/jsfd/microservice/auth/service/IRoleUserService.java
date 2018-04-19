@@ -1,7 +1,8 @@
 package com.jsfd.microservice.auth.service;
 
-import com.lottery.auth.domain.RoleUser;
-import com.lottery.core.mybatis.service.BaseMybatisService;
+import com.jsfd.core.mybatis.service.BaseMybatisService;
+import com.jsfd.microservice.auth.pojo.RoleUser;
+
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

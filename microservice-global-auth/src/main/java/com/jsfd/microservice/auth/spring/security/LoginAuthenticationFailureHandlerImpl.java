@@ -1,6 +1,6 @@
 package com.jsfd.microservice.auth.spring.security;
 
-import com.lottery.auth.spring.security.conf.properties.KaptchaServletProperties;
+import com.jsfd.microservice.auth.spring.security.conf.properties.KaptchaServletProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler;
@@ -15,7 +15,7 @@ import java.io.IOException;
  * 
  * @ClassName:LoginAuthenticationFailureHandlerImpl
  * @Description: TODO(登录错误处理,限制无验证码登录次数)
- * @author:"czlxming".
+ * @author:"jackchen".
  * @CreateDate:2017年10月22日-上午3:29:57.
  */
 public class LoginAuthenticationFailureHandlerImpl extends SimpleUrlAuthenticationFailureHandler {

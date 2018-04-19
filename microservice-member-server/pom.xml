@@ -63,10 +63,14 @@
         <dependency>
             <groupId>com.jsfd</groupId>
             <artifactId>microservice-member</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
+
+
         <dependency>
             <groupId>com.jsfd</groupId>
-            <artifactId>microservice-member</artifactId>
+            <artifactId>microservice-global-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

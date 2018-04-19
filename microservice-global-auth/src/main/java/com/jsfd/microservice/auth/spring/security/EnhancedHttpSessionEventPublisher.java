@@ -1,6 +1,6 @@
 package com.jsfd.microservice.auth.spring.security;
 
-import com.lottery.auth.domain.User;
+import com.jsfd.microservice.auth.pojo.User;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.session.HttpSessionEventPublisher;

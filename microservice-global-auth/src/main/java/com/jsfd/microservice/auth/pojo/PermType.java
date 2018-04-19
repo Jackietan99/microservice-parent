@@ -1,6 +1,7 @@
 package com.jsfd.microservice.auth.pojo;
 
-import com.lottery.core.entity.BusineEntity;
+
+import com.jsfd.core.entity.BusineEntity;
 
 /**
  * 权限类型

@@ -1,9 +1,10 @@
 package com.jsfd.microservice.auth.spring.security;
 
-import com.lottery.auth.domain.Perm;
-import com.lottery.auth.domain.User;
-import com.lottery.auth.service.IPermService;
-import com.lottery.auth.service.IUserService;
+
+import com.jsfd.microservice.auth.pojo.Perm;
+import com.jsfd.microservice.auth.pojo.User;
+import com.jsfd.microservice.auth.service.IPermService;
+import com.jsfd.microservice.auth.service.IUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,9 +27,9 @@ import java.util.Set;
 public class UserDetailsServiceImpl implements UserDetailsService, MessageSourceAware {
 	private final Logger log = LoggerFactory.getLogger(getClass());
 	@Autowired
-	private IUserService  userService;
+	private IUserService userService;
 	@Autowired
-	private IPermService  permService;
+	private IPermService permService;
 	
 	protected MessageSourceAccessor messages = SpringSecurityMessageSource.getAccessor();
 	

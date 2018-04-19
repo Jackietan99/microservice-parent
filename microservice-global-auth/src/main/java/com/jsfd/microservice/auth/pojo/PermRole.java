@@ -1,6 +1,7 @@
 package com.jsfd.microservice.auth.pojo;
 
-import com.lottery.core.entity.BaseEntity;
+
+import com.jsfd.core.entity.BaseEntity;
 
 /**
  * 权限与角色关联

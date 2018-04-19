@@ -1,10 +1,10 @@
 package com.jsfd.microservice.auth.service.impl;
 
-import com.lottery.auth.domain.AccessPerm;
-import com.lottery.auth.mapper.AccessPermMapper;
-import com.lottery.auth.service.IAccessPermService;
-import com.lottery.core.exception.BussinessException;
-import com.lottery.core.mybatis.service.AbstractMybatisService;
+import com.jsfd.core.exception.BussinessException;
+import com.jsfd.core.mybatis.service.AbstractMybatisService;
+import com.jsfd.microservice.auth.mapper.AccessPermMapper;
+import com.jsfd.microservice.auth.pojo.AccessPerm;
+import com.jsfd.microservice.auth.service.IAccessPermService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

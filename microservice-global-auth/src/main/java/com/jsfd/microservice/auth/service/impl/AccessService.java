@@ -1,13 +1,13 @@
 package com.jsfd.microservice.auth.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.lottery.auth.domain.Access;
-import com.lottery.auth.mapper.AccessMapper;
-import com.lottery.auth.service.IAccessService;
-import com.lottery.core.exception.BussinessException;
-import com.lottery.core.mybatis.service.AbstractMybatisService;
-import com.lottery.core.mybatis.util.JqGridPageUtils;
-import com.lottery.core.mybatis.util.PageInfoWrap;
+import com.jsfd.core.exception.BussinessException;
+import com.jsfd.core.mybatis.service.AbstractMybatisService;
+import com.jsfd.core.mybatis.util.JqGridPageUtils;
+import com.jsfd.core.mybatis.util.PageInfoWrap;
+import com.jsfd.microservice.auth.mapper.AccessMapper;
+import com.jsfd.microservice.auth.pojo.Access;
+import com.jsfd.microservice.auth.service.IAccessService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

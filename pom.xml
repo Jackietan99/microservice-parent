@@ -115,11 +115,7 @@
                 <artifactId>kaptcha</artifactId>
                 <version>${kaptcha.version}</version>
             </dependency>
-            <dependency>
-                <groupId>com.jsfd</groupId>
-                <artifactId>microservice-global-core</artifactId>
-                <version>${system.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>com.jsfd</groupId>
                 <artifactId>microservice-global-auth</artifactId>

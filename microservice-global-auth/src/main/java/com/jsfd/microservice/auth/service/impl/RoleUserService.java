@@ -1,9 +1,10 @@
 package com.jsfd.microservice.auth.service.impl;
 
-import com.lottery.auth.domain.RoleUser;
-import com.lottery.auth.mapper.RoleUserMapper;
-import com.lottery.auth.service.IRoleUserService;
-import com.lottery.core.mybatis.service.AbstractMybatisService;
+
+import com.jsfd.core.mybatis.service.AbstractMybatisService;
+import com.jsfd.microservice.auth.mapper.RoleUserMapper;
+import com.jsfd.microservice.auth.pojo.RoleUser;
+import com.jsfd.microservice.auth.service.IRoleUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

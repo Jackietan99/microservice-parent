@@ -21,6 +21,7 @@
         <dependency>
             <groupId>com.jsfd</groupId>
             <artifactId>microservice-global-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

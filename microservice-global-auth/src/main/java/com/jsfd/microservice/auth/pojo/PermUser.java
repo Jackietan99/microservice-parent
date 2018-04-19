@@ -1,6 +1,7 @@
 package com.jsfd.microservice.auth.pojo;
 
-import com.lottery.core.entity.BaseEntity;
+
+import com.jsfd.core.entity.BaseEntity;
 
 import java.io.Serializable;
 

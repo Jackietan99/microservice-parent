@@ -19,7 +19,7 @@ import java.io.IOException;
  * @see org.springframework.security.web.access.intercept.FilterSecurityInterceptor
  * @ClassName:SecurityInterceptorImpl
  * @Description: TODO(授权安全拦截器)
- * @author:"czlxming".
+ * @author:"jackchen".
  * @CreateDate:2017年8月28日-下午9:58:23.
  */
 public class SecurityInterceptorImpl extends AbstractSecurityInterceptor implements Filter {

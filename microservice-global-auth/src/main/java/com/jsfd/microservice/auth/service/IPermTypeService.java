@@ -1,9 +1,11 @@
 package com.jsfd.microservice.auth.service;
 
-import com.lottery.auth.domain.PermType;
-import com.lottery.core.exception.BussinessException;
-import com.lottery.core.mybatis.service.BaseMybatisService;
-import com.lottery.core.mybatis.util.PageInfoWrap;
+
+
+import com.jsfd.core.exception.BussinessException;
+import com.jsfd.core.mybatis.service.BaseMybatisService;
+import com.jsfd.core.mybatis.util.PageInfoWrap;
+import com.jsfd.microservice.auth.pojo.PermType;
 
 import java.util.List;
 import java.util.Map;
@@ -12,7 +14,8 @@ public interface IPermTypeService extends BaseMybatisService<PermType,Long> {
 	
 	PageInfoWrap<PermType> findPage(Map<String, Object> params) throws BussinessException;
 	
-	List<PermType> findAll() throws BussinessException;
+	List<PermType> findAll() throws BussinessException
+			;
 	
 	boolean isExist(String fieldId, String fieldValue, Long excludeId) throws BussinessException;
 	

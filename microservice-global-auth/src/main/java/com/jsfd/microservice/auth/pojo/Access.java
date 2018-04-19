@@ -1,6 +1,9 @@
 package com.jsfd.microservice.auth.pojo;
 
 
+import com.jsfd.core.entity.BusineEntity;
+import com.jsfd.core.entity.able.Treeable;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;

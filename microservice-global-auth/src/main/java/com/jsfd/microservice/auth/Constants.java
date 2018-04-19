@@ -1,4 +1,4 @@
-package com.lottery.auth;
+package com.jsfd.microservice.auth.spring.security;
 
 public interface Constants {
 

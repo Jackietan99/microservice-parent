@@ -1,7 +1,8 @@
 package com.jsfd.microservice.auth.spring.security;
 
-import com.lottery.auth.domain.AccessPerm;
-import com.lottery.auth.service.IAccessPermService;
+
+import com.jsfd.microservice.auth.pojo.AccessPerm;
+import com.jsfd.microservice.auth.service.IAccessPermService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.InitializingBean;
@@ -20,7 +21,7 @@ import java.util.Map.Entry;
  * 
  * @ClassName:SecurityMetadataSourceImpl
  * @Description: TODO(自定义安全元数据资源)
- * @author:"czlxming".
+ * @author:"jackchen".
  * @CreateDate:2017年8月28日-下午10:23:10.
  */
 public class SecurityMetadataSourceImpl  implements FilterInvocationSecurityMetadataSource ,InitializingBean{

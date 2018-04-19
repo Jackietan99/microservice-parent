@@ -4,16 +4,17 @@ import com.github.pagehelper.PageHelper;
 import com.google.common.base.Function;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
-import com.lottery.auth.domain.Access;
-import com.lottery.auth.domain.AccessPerm;
-import com.lottery.auth.domain.Perm;
-import com.lottery.auth.mapper.PermMapper;
-import com.lottery.auth.service.IAccessPermService;
-import com.lottery.auth.service.IPermService;
-import com.lottery.core.exception.BussinessException;
-import com.lottery.core.mybatis.service.AbstractMybatisService;
-import com.lottery.core.mybatis.util.JqGridPageUtils;
-import com.lottery.core.mybatis.util.PageInfoWrap;
+
+import com.jsfd.core.exception.BussinessException;
+import com.jsfd.core.mybatis.service.AbstractMybatisService;
+import com.jsfd.core.mybatis.util.JqGridPageUtils;
+import com.jsfd.core.mybatis.util.PageInfoWrap;
+import com.jsfd.microservice.auth.mapper.PermMapper;
+import com.jsfd.microservice.auth.pojo.Access;
+import com.jsfd.microservice.auth.pojo.AccessPerm;
+import com.jsfd.microservice.auth.pojo.Perm;
+import com.jsfd.microservice.auth.service.IAccessPermService;
+import com.jsfd.microservice.auth.service.IPermService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

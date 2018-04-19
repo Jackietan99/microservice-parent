@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  * @see UsernamePasswordAuthenticationFilter
  * @ClassName: LoginAuthenticationFilter
  * @Description: TODO(验证码登录认证过滤器)
- * @author:"czlxming".
+ * @author:"jackchen".
  * @CreateDate:2017年8月27日-下午11:59:38.
  */
 public class LoginAuthenticationFilter extends AbstractAuthenticationProcessingFilter {

@@ -1,7 +1,9 @@
 package com.jsfd.microservice.auth.mapper;
 
 
+import com.jsfd.core.mybatis.dao.BaseMybatisDao;
 import com.jsfd.microservice.auth.pojo.Access;
+import org.apache.ibatis.annotations.Param;
 
 
 import java.util.List;

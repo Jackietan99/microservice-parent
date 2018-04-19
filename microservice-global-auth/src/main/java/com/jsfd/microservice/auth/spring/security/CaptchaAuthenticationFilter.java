@@ -1,6 +1,6 @@
 package com.jsfd.microservice.auth.spring.security;
 
-import com.lottery.auth.spring.security.conf.properties.KaptchaServletProperties;
+import com.jsfd.microservice.auth.spring.security.conf.properties.KaptchaServletProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.InsufficientAuthenticationException;
 import org.springframework.security.core.Authentication;
@@ -34,7 +34,7 @@ public class CaptchaAuthenticationFilter extends AbstractAuthenticationProcessin
 	/** 是否启用验证码session键.*/
 	public static final String _isJcaptchaSessionKey = "isJcaptcha";
 	
-	/** @see com.twodreams.elevator.conf.WebSecurityConfig#captchaAuthenticationFilter() 。*/
+	/** @see 。*/
 	private String servletPath; 
 	
 	@Autowired

@@ -1,6 +1,7 @@
 package com.jsfd.microservice.config;
 
 
+import com.jsfd.microservice.filter.TokenZuulFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,8 +1,9 @@
 package com.jsfd.microservice.auth.spring.security;
 
-import com.lottery.auth.domain.User;
-import com.lottery.auth.domain.assist.UserTypeEnum;
-import com.lottery.core.util.DateUtils;
+
+import com.jsfd.core.utils.DateUtils;
+import com.jsfd.microservice.auth.pojo.User;
+import com.jsfd.microservice.auth.pojo.assist.UserTypeEnum;
 import org.springframework.security.core.CredentialsContainer;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.SpringSecurityCoreVersion;

@@ -1,8 +1,9 @@
 package com.jsfd.microservice.auth.spring.security;
 
-import com.lottery.auth.domain.LoginLog;
-import com.lottery.auth.service.ILoginLogService;
-import com.lottery.auth.spring.security.conf.properties.KaptchaServletProperties;
+
+import com.jsfd.microservice.auth.pojo.LoginLog;
+import com.jsfd.microservice.auth.service.ILoginLogService;
+import com.jsfd.microservice.auth.spring.security.conf.properties.KaptchaServletProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,7 @@ import java.util.Date;
  * @see SavedRequestAwareAuthenticationSuccessHandler
  * @ClassName:LoginSuccessHandlerImpl
  * @Description: TODO(登录成功处理)
- * @author:"czlxming".
+ * @author:"jackchen".
  * @CreateDate:2017年9月29日-上午9:56:39.
  */
 public class LoginAuthenticationSuccessHandlerImpl implements AuthenticationSuccessHandler {
@@ -35,7 +36,7 @@ public class LoginAuthenticationSuccessHandlerImpl implements AuthenticationSucc
 	private KaptchaServletProperties properties;
 	
 	@Autowired
-	private ILoginLogService  loginLogService;
+	private ILoginLogService loginLogService;
 	
 	@Override  
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws IOException,  ServletException {  

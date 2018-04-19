@@ -1,9 +1,10 @@
 package com.jsfd.microservice.auth.service;
 
-import com.lottery.auth.domain.Perm;
-import com.lottery.core.exception.BussinessException;
-import com.lottery.core.mybatis.service.BaseMybatisService;
-import com.lottery.core.mybatis.util.PageInfoWrap;
+
+import com.jsfd.core.exception.BussinessException;
+import com.jsfd.core.mybatis.service.BaseMybatisService;
+import com.jsfd.core.mybatis.util.PageInfoWrap;
+import com.jsfd.microservice.auth.pojo.Perm;
 
 import java.util.List;
 import java.util.Map;
