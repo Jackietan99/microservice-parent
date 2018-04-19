@@ -1,7 +1,7 @@
 package com.jsfd.core.controller;
 
-import com.lottery.core.exception.BussinessException;
-import com.lottery.core.web.model.AjaxResult;
+import com.jsfd.core.exception.BussinessException;
+import com.jsfd.core.web.model.AjaxResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Scope;

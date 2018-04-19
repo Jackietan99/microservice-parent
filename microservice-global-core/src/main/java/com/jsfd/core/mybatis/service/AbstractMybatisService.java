@@ -1,6 +1,6 @@
 package com.jsfd.core.mybatis.service;
 
-import com.lottery.core.mybatis.dao.BaseMybatisDao;
+import com.jsfd.core.mybatis.dao.BaseMybatisDao;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.beans.factory.annotation.Autowired;

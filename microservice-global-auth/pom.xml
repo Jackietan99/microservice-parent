@@ -11,10 +11,13 @@
 
     <groupId>com.jsfd</groupId>
     <artifactId>microservice-global-auth</artifactId>
+    <name>microservice-global-auth</name>
+    <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -36,24 +39,10 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-
         <dependency>
             <groupId>com.jsfd</groupId>
             <artifactId>microservice-global-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.jsfd</groupId>
-            <artifactId>microservice-global-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.jsfd</groupId>
-            <artifactId>microservice-global-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>3.4.6</version>
+            <version>0.0.1</version>
         </dependency>
 
 
