@@ -124,5 +124,5 @@
         <appender-ref ref="ASYNC_LOG_ERROR" />
     </root>
     <logger name="org.springframework" level="DEBUG" />
-    <logger name="com.jsfd.register" level="DEBUG"/>
+    <logger name="com.jsfd.microservice.register" level="DEBUG"/>
 </configuration>
