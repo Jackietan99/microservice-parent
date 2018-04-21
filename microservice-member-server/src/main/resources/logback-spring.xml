@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <!--<include resource="org/springframework/boot/logging/logback/base.xml"/> -->
-    <property name="APP_ID" value="com.lottery.admin" />
+    <property name="APP_ID" value="com.jsfd.microservice.server" />
     <property name="LOG_PATH" value="log"></property>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
