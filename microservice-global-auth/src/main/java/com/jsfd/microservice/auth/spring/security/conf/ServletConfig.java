@@ -2,7 +2,7 @@ package com.jsfd.microservice.auth.spring.security.conf;
 
 
 import com.google.code.kaptcha.servlet.KaptchaServlet;
-import com.lottery.auth.spring.security.conf.properties.KaptchaServletProperties;
+import com.jsfd.microservice.auth.spring.security.conf.properties.KaptchaServletProperties;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ import javax.servlet.ServletException;
 public class ServletConfig {
 
 	@Bean
-	public ServletRegistrationBean kaptchaServletRegistrationBean(KaptchaServletProperties properties) throws ServletException {  
+	public ServletRegistrationBean kaptchaServletRegistrationBean(KaptchaServletProperties properties) throws ServletException {
 		// return new ServletRegistrationBean(new KaptchaServlet(), "/kaptcha/obtain");
 		ServletRegistrationBean servlet  = new ServletRegistrationBean();
 		servlet.setServlet(new KaptchaServlet());

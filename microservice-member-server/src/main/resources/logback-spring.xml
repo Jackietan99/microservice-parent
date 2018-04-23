@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <!--<include resource="org/springframework/boot/logging/logback/base.xml"/> -->
-    <property name="APP_ID" value="com.jsfd.microservice.server" />
+    <property name="APP_ID" value="com.jsfd.microservice.server"/>
     <property name="LOG_PATH" value="log"></property>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level	%logger{35} - %msg %n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level %logger{35} - %msg %n</pattern>
         </encoder>
     </appender>
     <appender name="FILE_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -18,7 +18,7 @@
             <maxHistory>10</maxHistory>
         </rollingPolicy>
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level	%logger{35} - %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
         </encoder>
     </appender>
 
@@ -34,7 +34,7 @@
             <maxHistory>10</maxHistory>
         </rollingPolicy>
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level	%logger{35} - %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
         </encoder>
     </appender>
     <appender name="FILE_INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -49,7 +49,7 @@
             <maxHistory>10</maxHistory>
         </rollingPolicy>
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level	%logger{35} - %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
         </encoder>
     </appender>
         
@@ -65,7 +65,7 @@
             <maxHistory>10</maxHistory>
         </rollingPolicy>
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level	%logger{35} - %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
         </encoder>
     </appender>
     <appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -80,50 +80,50 @@
             <maxHistory>10</maxHistory>
         </rollingPolicy>
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level	%logger{35} - %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
         </encoder>
     </appender>
 
     <appender name="ASYNC_LOG" class="ch.qos.logback.classic.AsyncAppender">
         <discardingThreshold>0</discardingThreshold>
         <queueSize>512</queueSize>
-        <appender-ref ref="FILE_LOG" />
+        <appender-ref ref="FILE_LOG"/>
     </appender>
     <appender name="ASYNC_LOG" class="ch.qos.logback.classic.AsyncAppender">
         <discardingThreshold>0</discardingThreshold>
         <queueSize>512</queueSize>
-        <appender-ref ref="FILE_LOG" />
+        <appender-ref ref="FILE_LOG"/>
     </appender>
     <appender name="ASYNC_LOG_DEBUG" class="ch.qos.logback.classic.AsyncAppender">
         <discardingThreshold>0</discardingThreshold>
         <queueSize>512</queueSize>
-        <appender-ref ref="FILE_DEBUG" />
+        <appender-ref ref="FILE_DEBUG"/>
     </appender>
     <appender name="ASYNC_LOG_INFO" class="ch.qos.logback.classic.AsyncAppender">
         <discardingThreshold>0</discardingThreshold>
         <queueSize>512</queueSize>
-        <appender-ref ref="FILE_INFO" />
+        <appender-ref ref="FILE_INFO"/>
     </appender>
     <appender name="ASYNC_LOG_WARN" class="ch.qos.logback.classic.AsyncAppender">
         <discardingThreshold>0</discardingThreshold>
         <queueSize>512</queueSize>
-        <appender-ref ref="FILE_WARN" />
+        <appender-ref ref="FILE_WARN"/>
     </appender>
     <appender name="ASYNC_LOG_ERROR" class="ch.qos.logback.classic.AsyncAppender">
         <discardingThreshold>0</discardingThreshold>
         <queueSize>512</queueSize>
-        <appender-ref ref="FILE_ERROR" />
+        <appender-ref ref="FILE_ERROR"/>
     </appender>
     <root level="INFO">
         <!-- appender referenced after it is defined -->
-        <appender-ref ref="STDOUT" />
-        <appender-ref ref="ASYNC_LOG" />
-        <appender-ref ref="ASYNC_LOG_DEBUG" />
-        <appender-ref ref="ASYNC_LOG_INFO" />
-        <appender-ref ref="ASYNC_LOG_WARN" />
-        <appender-ref ref="ASYNC_LOG_ERROR" />
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="ASYNC_LOG"/>
+        <appender-ref ref="ASYNC_LOG_DEBUG"/>
+        <appender-ref ref="ASYNC_LOG_INFO"/>
+        <appender-ref ref="ASYNC_LOG_WARN"/>
+        <appender-ref ref="ASYNC_LOG_ERROR"/>
     </root>
-    <logger name="org.springframework" level="INFO" />
-    <logger name="org.springframework.scheduling" level="INFO" />
+    <logger name="org.springframework" level="INFO"/>
+    <logger name="org.springframework.scheduling" level="INFO"/>
     <logger name="com.jsfd.microservice" level="DEBUG"/>
 </configuration>
