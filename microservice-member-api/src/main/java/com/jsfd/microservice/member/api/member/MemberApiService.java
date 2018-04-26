@@ -1,5 +1,6 @@
 package com.jsfd.microservice.member.api.member;
 
+import com.jsfd.microservice.member.api.dto.MemberDTO;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
