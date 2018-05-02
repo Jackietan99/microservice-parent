@@ -1,5 +1,6 @@
 package com.jsfd.microservice.service;
 
+import com.jsfd.microservice.member.api.dto.MemberDTO;
 import com.jsfd.microservice.remote.MemberRpcService;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -13,4 +14,8 @@ public class MemberService {
 
     @Autowired
     private MemberRpcService memberRpcService;
+
+    public String hello (){
+        return "hello";
+    }
 }

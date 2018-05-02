@@ -76,7 +76,7 @@ public class UserDetailsImpl implements UserDetails, CredentialsContainer {
 		}else if(user.getUserType() == UserTypeEnum.ADMIN.ordinal()) { //1
 			this.typeCode = "admin";
 		}else if(user.getUserType() == UserTypeEnum.AGENT.ordinal()) {//2
-			this.typeCode = "agent";
+			this.typeCode = "member";
 		}else if(user.getUserType() == UserTypeEnum.MEMBER.ordinal()) {//3
 			this.typeCode = "member";
 		}

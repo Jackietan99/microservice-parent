@@ -1,15 +1,14 @@
-package com.jsfd.microservice.member.api.dto;
+package com.jsfd.microservice.member.pojo;
 
 import java.util.Date;
 
 /**
  * @program: microservice-parent
- * @description: Data Transfering Object
+ * @description: Member Pojo
  * @author: jackchen
- * @create: 2018-04-26 23:28
+ * @create: 2018-05-02 23:14
  **/
-public class MemberDTO {
-
+public class Member {
 
     /**
      *
@@ -285,5 +284,4 @@ public class MemberDTO {
     public void setState(Integer state) {
         this.state = state;
     }
-
 }
